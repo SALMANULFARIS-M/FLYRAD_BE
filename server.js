@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS options (Update allowed origins as needed)
 const corsOptions = {
-  origin: ["http://localhost:4200", "https://flyrad.in"], // Allow specific frontend origins
+  origin: ["http://localhost:4200","https://www.flyrad.in", "https://flyrad.in"], // Allow specific frontend origins
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
